@@ -11,3 +11,30 @@
 body {
     margin: 10px 200px 10px 200px;
 }
+ul {
+    list-style:none;
+}
+a {
+    text-decoration: none;
+    color:black;
+}
+.title {
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-around;
+}
+.left-title {
+    display: flex;
+    flex-direction: column;
+    flex:1;
+    align-items: flex-start;
+    
+}
+.right-title {
+    display: flex;
+    flex-basis: auto;
+    align-items: center;
+    justify-content: center;
+    background-color: grey;
+    flex:1;
+}
