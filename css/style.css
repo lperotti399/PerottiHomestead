@@ -38,3 +38,28 @@ a {
     background-color: grey;
     flex:1;
 }
+.items {
+    display: flex;
+    
+    /*justify-content: space-around;*/
+}
+#garden-text {
+    display: flex;
+    flex: 1;
+}
+#garden-img {
+    display: flex;
+    flex: 3;
+
+}
+.menu {
+    display: flex;
+    flex-direction: column;
+    margin-top:  20px;
+}
+
+.activities {
+    display: flex;
+    justify-content: center;
+    
+}
