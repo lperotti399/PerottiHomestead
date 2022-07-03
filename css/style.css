@@ -44,7 +44,7 @@ a {
 .menu {
     display: flex;
     flex-direction: column;
-    margin-top:  20px;
+    margin-top:  50px;
 }
 
 .activities {
@@ -53,21 +53,37 @@ a {
 }
 
 .items img {
+    flex:2;
+    display: flex;
+    max-width: 100%;
+    height: auto;
+}
+
+.items p {
     flex:1;
     display: flex;
-    width: 100px;
-    height: 100px;
+    align-items: flex-end;
 }
 
 .right-title img {
-    width: 30px;
-    height:30px;
+    max-width: 100%;
+    height: auto;
+    display: flex;
 }
 
 .footer {
     display: flex;
+    margin-top: 20px;
 }
 
 .quote {
     display: flex;
+}
+
+.footer button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex:1;
+    padding: 10px;
 }
