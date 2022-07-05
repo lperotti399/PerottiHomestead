@@ -39,17 +39,7 @@ a {
 }
 .items {
     display: flex;
-}
-
-.menu {
-    display: flex;
-    flex-direction: column;
     margin-top:  50px;
-}
-
-.activities {
-    display: flex;
-    justify-content: center;
 }
 
 .items img {
@@ -69,6 +59,7 @@ a {
     max-width: 100%;
     height: auto;
     display: flex;
+    align-items: center;
 }
 
 .footer {
@@ -78,6 +69,7 @@ a {
 
 .quote {
     display: flex;
+    flex-direction: column;
 }
 
 .footer button {
