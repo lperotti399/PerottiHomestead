@@ -1,7 +1,7 @@
-.header {
+.header-top {
     display: flex;
     justify-content: space-between;
-    
+    background-color: #1F2937;
     
 }
 .links{
@@ -10,6 +10,9 @@
 }
 body {
     margin: 10px 200px 10px 200px;
+    display:flex;
+    flex-direction: column;
+
 }
 ul {
     list-style:none;
@@ -64,7 +67,6 @@ a {
 
 .footer {
     display: flex;
-    margin-top: 20px;
 }
 
 .quote {
@@ -72,10 +74,21 @@ a {
     flex-direction: column;
 }
 
-.footer button {
+.button {
     display: flex;
     justify-content: center;
     align-items: center;
     flex:1;
-    padding: 10px;
+}
+
+.activities {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.left-title h2 {
+    font-size: 48px;
+    font-weight: 800;
+    color: #F9FAF8
 }
