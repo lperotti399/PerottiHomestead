@@ -1,7 +1,7 @@
 .header-top {
     display: flex;
     justify-content: space-between;
-    background-color: #1F2937;
+    /*background-color: #1F2937;*/
     
 }
 .links{
@@ -87,6 +87,7 @@ a {
     margin-top: 20px;
 }
 
+/*
 .left-title h2 {
     font-size: 48px;
     font-weight: 800;
